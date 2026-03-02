@@ -9,11 +9,6 @@ import "container/list"
 //输出：49
 //解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
 
-type Height struct {
-	I int
-	H int
-}
-
 func maxArea1(height []int) int {
 	// 双指针法 每次移动较矮的指针
 	i, j := 0, len(height)-1
