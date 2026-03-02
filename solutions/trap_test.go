@@ -1,4 +1,4 @@
-package main
+package solutions
 
 import (
 	"testing"
@@ -64,7 +64,7 @@ func TestTrap(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := trap(tt.height)
+			got := Trap(tt.height)
 			if got != tt.want {
 				t.Errorf("trap(%v) = %d, want %d", tt.height, got, tt.want)
 			}

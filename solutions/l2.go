@@ -1,4 +1,4 @@
-package main
+package solutions
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	head := new(ListNode)

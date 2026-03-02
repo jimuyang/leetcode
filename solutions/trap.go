@@ -1,4 +1,4 @@
-package main
+package solutions
 
 import (
 	"container/list"
@@ -8,6 +8,11 @@ import (
 type Height struct {
 	I int
 	H int
+}
+
+// Trap 供 main 或外部调用的导出包装
+func Trap(height []int) int {
+	return trap(height)
 }
 
 func trap(height []int) int {

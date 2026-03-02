@@ -1,4 +1,4 @@
-package main
+package solutions
 
 func longestPalindrome(s string) string {
 	var res string

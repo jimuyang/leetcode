@@ -1,5 +1,13 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/jimuyang/leetcode/solutions"
+)
+
 func main() {
-	//testFindMedianAndSplit()
+	// 测试 trap：接雨水
+	height := []int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}
+	fmt.Printf("trap(%v) = %d\n", height, solutions.Trap(height))
 }

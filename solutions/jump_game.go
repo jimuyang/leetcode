@@ -1,4 +1,4 @@
-package main
+package solutions
 
 func canJump(nums []int) bool {
 	if len(nums) <= 1 {

@@ -4,14 +4,15 @@
 
 ## 项目结构
 
-- 每题一个独立 `.go` 文件
-- 所有代码使用 `package main`
-- 可选：为题目编写 `*_test.go` 测试文件
+- 所有题解位于 `solutions/` 目录
+- 每题一个独立 `.go` 文件，使用 `package solutions`
+- 可选：为题目编写 `*_test.go` 测试文件（与题解同目录）
+- 根目录 `main.go` 为入口，可调用 `solutions` 包进行验证
 
 ## 文件命名
 
-- **统一使用 snake_case**：`container_with_most_water.go`、`group_anagrams.go`、`longest_palindromic_substring.go`
-- LeetCode 题号可简写：`l15.go`、`l2.go`
+- **统一使用 snake_case**：`solutions/container_with_most_water.go`、`solutions/group_anagrams.go`
+- LeetCode 题号可简写：`solutions/l15.go`、`solutions/l2.go`
 
 ## 代码风格
 
